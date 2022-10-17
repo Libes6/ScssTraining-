@@ -1,0 +1,51 @@
+.Cart{
+    width: 280px;
+    text-align: center;
+    margin-bottom: 65px;
+    margin-right: 54px;
+    transition: all 0.2s ease-in-out;
+    .img{
+        width: 260px;
+        height: 260px;
+        align-items: center;;
+        // padding: 20px;
+       img{
+        width: 220px;
+        height: 220px;
+       }
+    }
+    h4{
+
+        font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1%;
+    margin-bottom: 20px;
+    }
+    .CartButoom{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        width: 240px;
+    
+     
+        .Price{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 0.015em;
+            
+            color: #000000;
+        }
+        button{
+            border-style:inset solid;
+            border-color: #FF0064;
+            padding: 10px 25px;
+            align-items: center;
+            border-radius: 15px;
+            background-color:rgba($color: #000000, $alpha: 0);
+          
+        }
+    }
+}

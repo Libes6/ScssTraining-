@@ -1,0 +1,89 @@
+.headerWrapper {
+
+    padding: 2.5rem 0 3.125rem 0;
+    border-bottom: 1px solid #F6F6F6;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1240px;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+
+        &Logo {
+            &Link {
+                h3 {
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 1.5rem;
+                    letter-spacing: 0.01em;
+                    text-transform: uppercase;
+                    color: #5A00E6;
+
+                    span {
+                        color: #FF0064;
+                        font-size: 1.5rem;
+                    }
+                }
+
+                span {
+                    color: #7B7B7B;
+                    font-size: 1rem;
+                }
+
+
+            }
+        }
+
+        .cartWrapper {
+            display: flex;
+            padding: 0.938rem 1.638rem;
+            background-color: #FF0064;
+            border-radius: 30px;
+            align-items: center;
+            ;
+            gap: 13px;
+
+            .cartPrice {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 1rem;
+                line-height: .9px;
+                letter-spacing: .9px;
+                color: #FFFFFF;
+            }
+
+            .cartBorder {
+
+                width: 1px;
+                height: 25px;
+
+                background: rgba(255, 255, 255, 0.25);
+            }
+
+            .cartBasket {
+                color: #FFFFFF;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+
+                span {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 1rem;
+                    line-height: 19px;
+                }
+
+                .cartBasketIcon {
+                    margin: 0 2px;
+                    font-size: 1.2rem;
+
+                }
+            }
+
+        }
+    }
+
+
+}

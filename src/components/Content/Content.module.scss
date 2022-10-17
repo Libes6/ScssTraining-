@@ -1,0 +1,25 @@
+.ContentWrapper{
+    padding:0 60px ;
+    align-items: center ;;
+.Content{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;     
+        letter-spacing: 0.01em;       
+        color: #000000;
+    }
+    .CartItem{
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+}
+}

@@ -1,10 +1,10 @@
 import React from "react";
 import style from "./Cart.module.scss";
-const Cart = () => {
+const Cart = ({img}) => {
   return (
      <div className={style.Cart}>
          <div className={style.img}>
-            <img src="http://placeimg.com/640/480/transport" alt="" />
+          <img src={img} alt="" />
         </div>
     <h4>Samurai</h4>
       <div className={style.CartButoom}>

@@ -8,12 +8,13 @@ const Menu = () => {
         <div className={style.Menu}>
             <div className={style.MenuItems}>
                 <ul>
-                    <li className={isActive ? "active" : "active"}>All</li>
-                    <li>Man`s</li>
-                    <li>Femali</li>
-                    <li>Childrens</li>
+                    <li >All</li>
+                    <li className="active">Man`s</li>
+                    <li>Female</li>
+                    <li>Children</li>
                     <li>Box</li>
                     <li>Accessories</li>
+
                     
                 </ul>
             </div>

@@ -1,3 +1,5 @@
+
+
 .MenuWrapper {
 
     padding: 2.5rem 0 3.125rem 0;
@@ -24,21 +26,28 @@
                   margin-right: 10px;
                   font-weight: bold;
                   cursor: pointer;
-                //   transition: background-color 0.1s ease-in-out;
+                  transition: background-color 0.1s ease-in-out;
+                  -webkit-touch-callout: none; /* iOS Safari */
+                  -webkit-user-select: none; /* Safari */
+                  -khtml-user-select: none; /* Konqueror HTML */
+                  -moz-user-select: none; /* Old versions of Firefox */
+                  -ms-user-select: none; /* Internet Explorer/Edge */
+                  user-select: none;
       
             
                 &:hover {
-                  background-color: darken(#f9f9f9, 2%);
+                  background-color: fuchsia;
                 }
+                  &:active{
+                    background-color: #cd5353;
+                  }
           
                 &:active {
-                  background-color: darken(#f9f9f9, 5%);
+                  background-color: #000000;
+                  font-size: 17px;
                 }
           
-                &.active {
-                  background: linear-gradient(45deg, #5a00e6, #ff0064);
-                  color: #fff;
-                }
+
                 }
               }
         }

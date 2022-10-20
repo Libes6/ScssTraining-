@@ -7,11 +7,8 @@ const Content = () => {
         <div className={style.Content}>
             <h2>Chose</h2>
             <div className={style.CartItem}>
-               <Cart/> 
-               <Cart/> 
-               <Cart/> 
-               <Cart/> 
-               {[...new Array(15)].map(()=><Cart/>)}
+           
+               {[...new Array(15)].map(()=><Cart img='http://placeimg.com/640/480/fashion'/>)}
             </div>
         </div>
 
